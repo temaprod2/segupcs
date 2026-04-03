@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SeguPCS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #020617;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #1e293b;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #020617;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>SeguPCS</header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to SeguPCS</h1>
+    <p>Your place for PC builds and gaming setups</p>
+  </section>
+
+  <section id="products" class="products">
+    <div class="card">
+      <img src="image1.jpg" alt="Product Image" />
+      <h3>Gaming PC</h3>
+      <p>Add your description here</p>
+    </div>
+
+    <div class="card">
+      <img src="image2.jpg" alt="Product Image" />
+      <h3>Keyboard</h3>
+      <p>Add your description here</p>
+    </div>
+
+    <div class="card">
+      <img src="image3.jpg" alt="Product Image" />
+      <h3>Monitor</h3>
+      <p>Add your description here</p>
+    </div>
+  </section>
+
+  <section id="contact" class="hero">
+    <h2>Contact Us</h2>
+    <p>Email: your@email.com</p>
+  </section>
+
+  <footer>
+    © 2026 SeguPCS
+  </footer>
+
+</body>
+</html>
